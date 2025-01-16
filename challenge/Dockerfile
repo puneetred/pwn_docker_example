@@ -14,7 +14,7 @@ COPY system_health_check .
 COPY flag .
 COPY ynetd .
 
-RUN chown -R root:root /home/ctf
+RUN chown -R ctf:ctf /home/ctf
 
 USER ctf
 EXPOSE 1024
